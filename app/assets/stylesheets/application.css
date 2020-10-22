@@ -1,9 +1,15 @@
 li {
-    color: rgba(245, 4, 4, 0.838)
+    color: rgba(245, 4, 4, 0.838);
+    background-color: aliceblue;
 }
 ul {
     background-color: black;
-    width: 30%
+    width: 30%;
+    padding-left: 20px;
+}
+
+body {
+    background-color: aliceblue;
 }
 
 /*
