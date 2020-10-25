@@ -1,4 +1,4 @@
-<div>
+<div class="form">
 <%= form_for(@contact) do |f| %>
 
     <%= f.label :first_name %>:
@@ -7,17 +7,17 @@
     <%= f.label :last_name %>:
     <%= f.text_field :last_name %><br />
 
-    <%= f.label :email %>
-    <%= f.email_field :email%>
+    <%= f.label :email %>:
+    <%= f.email_field :email%><br />
 
-    <%= f.label :message %>
-    <%= f.text_field :message%>
+    <%= f.label :message %>:<br />
+    <%= f.text_area :message%><br />
 
-    <%= f.label :phone_number %>
-    <%= f.telephone_field :phone_number %>
+    <%= f.label :phone_number %>:
+    <%= f.telephone_field :phone_number %><br />
 
-    <%= f.label :subject %>
-    <%= f.text_field :subject %>
+    <%= f.label :subject %>:
+    <%= f.text_field :subject %><br />
 
     <%= f.submit  "Let's connect" %>
 <% end %>
